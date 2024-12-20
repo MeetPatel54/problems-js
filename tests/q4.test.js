@@ -19,7 +19,7 @@ describe('Soldier and Bananas', () => {
     });
 
     test('Should handle large numbers within limits', () => {
-        expect(soldierBananas(1000, 1000000000, 1000)).toBe(499500000);
+        expect(soldierBananas(1000, 1000000, 1000)).toBe(499500000);
     });
 
     test('Should throw error for non-integer inputs', () => {
